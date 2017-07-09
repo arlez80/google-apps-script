@@ -289,7 +289,7 @@ extern class Spreadsheet {
 	function duplicateActiveSheet() : Sheet;
 	function getActiveCell() : Range;
 	function getActiveRange() : Range;
-	static function getActiveSheet() : Sheet;
+	function getActiveSheet() : Sheet;
 	function getColumnWidth( columnPosition : Int ) : Int;
 	function getDataRange() : Range;
 	function getEditors() : Array<User>;
