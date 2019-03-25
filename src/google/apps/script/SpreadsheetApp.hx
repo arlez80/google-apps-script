@@ -115,6 +115,7 @@ extern class SpreadsheetApp {
     static function newDataValidation() : DataValidationBuilder;
     static function open(file:File) : Spreadsheet;
     static function openById(id:String) : Spreadsheet;
+    static function openByUrl(url:String) : Spreadsheet;
     static function setActiveRange(range:Range) : Range;
     static function setActiveSheet(sheet:Sheet) : Sheet;
     static function setActiveSpreadsheet(newActiveSpreadsheet:Spreadsheet) : Void;
