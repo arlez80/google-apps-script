@@ -2,6 +2,7 @@ package google.apps.script;
 
 @:require(google_apps_script)
 @:native("UserProperties")
+@:deprecated
 extern class UserProperties {
 	static function deleteAllProperties() : UserProperties;
 	static function deleteProperty( key : String ) : UserProperties;
